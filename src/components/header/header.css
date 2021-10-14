@@ -1,5 +1,5 @@
 .header {
-	margin-top: 60px;
+	margin-top: 50px;
 }
 .headerTitles {
 	display: flex;
@@ -12,13 +12,13 @@
 }
 .headerTitleSm {
 	position: absolute;
-	top: 45%;
+	top: 28%;
 	font-size: 25px;
 }
 
 h3 {
 	position: absolute;
-	top: 50%;
+	top: 32%;
 }
 h3 span::before {
 	content: "";
@@ -39,10 +39,23 @@ h3 span::before {
 }
 
 .headerImg {
-	width: 100%;
-	height: 750px;
-	margin-top: -35px;
-	object-fit: cover;
+	width: 100vw;
+	height: 900px;
+	margin-top: -55px;
+	position: relative;
+	overflow: hidden;
+}
+.headerImg:after {
+	content: "";
+	position: absolute;
+	top: 80%;
+	left: 0;
+	height: 100%;
+	width: 150%;
+	background-color: rgb(238, 216, 176);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
 }
 .leaf {
 	position: absolute;
@@ -120,7 +133,7 @@ h3 span::before {
 }
 h2 {
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	width: 100%;
 	font-family: "Courgette", cursive;
 	font-size: 4em;

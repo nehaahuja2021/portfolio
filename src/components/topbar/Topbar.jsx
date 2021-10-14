@@ -21,7 +21,7 @@ export default function topbar() {
 
 
          <div className="topRight">
-            <img className="topImg" src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.6435-9/33176536_1850471221672326_9043932688389505024_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=nafk_Mzav3oAX-jctK-&_nc_ht=scontent-bru2-1.xx&oh=89b4a94d6f87278642619d31a11530ec&oe=6183FEB9" alt="myimage" />
+            <img className="topImg" src="/images/neha.jpeg" alt="myimage" />
          </div>
       </div>
    )

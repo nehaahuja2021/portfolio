@@ -1,0 +1,69 @@
+.c {
+	height: 100vh;
+
+	position: relative;
+}
+.c-bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(85, 131, 175, 0.527);
+
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+}
+
+.c-wrapper {
+	padding: 50px;
+	display: flex;
+}
+.c-left {
+	flex: 1;
+}
+
+.c-right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.c-title {
+	font-size: 25px;
+	width: 80%;
+}
+.c-info-item {
+	display: flex;
+	align-items: center;
+	margin: 50px 0px;
+	font-weight: 300;
+	font-size: 15px;
+	width: 70%;
+}
+.c-icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+.c-desc {
+	font-weight: 200;
+}
+.c-form {
+	margin-top: 20px;
+
+	border-radius: 2%;
+}
+.c-input {
+	width: 50%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: rgba(85, 131, 175, 0.527);
+	margin: 10px 0px;
+	padding-left: 10px;
+}
+.c-textarea {
+	width: 100%;
+	margin: 10px 0px;
+	padding-left: 10px;
+	background-color: rgba(85, 131, 175, 0.527);
+}

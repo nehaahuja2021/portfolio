@@ -1,4 +1,6 @@
 import "./home.css"
+import React from 'react'
+
 import Header from "../../components/header/Header"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Projects from "../../components/projects/Projects"
@@ -10,6 +12,7 @@ export default function Home() {
          <div className="home">
          <Projects/>
          <Sidebar/>
+         
          </div>
       </>
    )
